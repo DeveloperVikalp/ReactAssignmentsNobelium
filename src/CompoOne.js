@@ -1,7 +1,8 @@
-function CompoOne(){
-    return (
-        <h1>Heading one ... from  first component</h1>
-   
+function CompoOne(props){
+    return (<>
+        <h1>{props.headingText}</h1>
+        <br/>
+   </>
         );
     
     };

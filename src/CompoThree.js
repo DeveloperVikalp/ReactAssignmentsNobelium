@@ -1,6 +1,7 @@
-function CompoThree(){
- return (
-    <h3> heading three ... from third compo</h3>
- );
+function CompoThree(props){
+    return (
+    <button>{props.buttonText}</button>
+   
+    );
 };
 export default  CompoThree;
