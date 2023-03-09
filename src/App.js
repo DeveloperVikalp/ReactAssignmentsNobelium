@@ -1,21 +1,17 @@
-// npo
+
 import './App.css';
-import Compo from './compo';
+
 
 function App() {
-  const divStyle ={
-    backgroundColor: "green",
-    fontSize:"150px"
-    
-  }
-
-  const textHe = "compo text "
   return (
-    <div className="App" style={divStyle}>
-      <Compo  ourStyle ={divStyle}text={textHe}/>
-      <h2> heading two</h2>
+    <div className="App">
+      <h1>Heading one ... from  first component</h1>
+      <h2> heading two from second component</h2>
+      <h3> heading three .. from third component</h3>
+      <button>click this!</button>
+      
     </div>
   );
-}
+};
 
 export default App;
