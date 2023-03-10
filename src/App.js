@@ -1,12 +1,20 @@
 
 import './App.css';
-import CustomCompo from './CustomCompo';
+import userData from './userData';
+import Card from './Card';
+function createCard(user){
+  return <Card key ={user.name}
+   name={user.name}
+   designation ={user.designation}
+   description={user.description}
+   image ={user.image}/>
+}
 
 function App() {
   return (
     <div className="App">
       
-     <CustomCompo/>
+     {userData.map(createCard)};
      
       
     </div>
