@@ -8,7 +8,8 @@ function Clock(){
 
     return(
         <div>
-            <h1>{seconds}</h1>
+           
+            <p>Seconds:{seconds}</p>
 
         </div>
     )
